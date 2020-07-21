@@ -91,20 +91,25 @@ Para la implementación del sumador de 8 bits se dio uso al integrado 74283
 7. MAPA DE VARIABLES
 
 8. EXPLICACIÓN DEL CÓDIGO FUENTE
-* Para realizar el circuito sumador de dos números de 8 bits primero se definen las variables de entrada y salida que tendrá el circuito, todas se encuentran en lógica positiva y se presentan de la siguiente forma.
+* Para realizar el circuito sumador de dos números de 8 bits primero se definen las variables de entrada y salida que tendrá el circuito, todas se encuentran en lógica positiva y se presentan de la siguiente forma:
+
 ![Diagrama de bloques: Sumador 8 Bits](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENTRADAS.png)
 
 **Entradas**
 **Número A**: A7, A6, A5, A4, A3, A2, A1, A0
 Donde: A0 es el bit menos significativo y A7 es el más significativo
+
 **Número B**: B7, B6, B5, B4, B3, B2, B1, B0
 Donde: B0 es el bit menos significativo y B7 es el más significativo
+
 ![Entradas en DIPSW](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DIPSENTRADAS.PNG)
+
 **Salidas**
 S8, S7, S6, S5, S4, S3, S2, S1, S0
 Donde: S0 es el bit menos significativo y S8 (acarreo) es el más significativo.
 
 * Para realizar el proceso de la suma binaria se utiliza el circuito integrado 74LS283 que cumple la función de sumador.
+
 ![Sumador LS74283](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SUM.png)
 
 Donde A0 - A3 representan los cuatro primeros bits del número A y B0 - B3 del número B, sin embargo, los números de las entradas son de 8 Bits de magnitud entonces para realizar la suma se necesita realizar una conexión en cascada entre dos sumadores.
@@ -113,6 +118,7 @@ Para que se cumpla el proceso se debe conocer las reglas de la suma binaria:
 ![Reglas de la suma binaria](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/REGLASUMA.PNG)
 
 El integrado 74LS283 tiene dos pines que representan el acarreo de entrada y salida, entonces para realizar la conexión en cascada: el acarreo de salida del primer sumador es el acarreo de entrada del segundo, por lo tanto, ambos se encuentran conectados y en las entradas del integrado se colocan las cuatro variables restantes de los números A y B, las cuales son: A4 - A7 y B4 - B7 identificando la conexión de los bits más y menos significativos.
+
 ![Conexión en cascada](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SUMCASCADA.png)
 
  *. Las salidas de los sumadores representan el resultado de la suma realizada por el circuito integrado y se encuentran conectadas a unos LEDS, de tal forma que cuando el LED se enciende, representa un 1 y cuando se apaga representa un 0.
@@ -126,6 +132,7 @@ S5=A5+B5
 S6=A6+B6
 S7=A7+BB7
 S8=Acarreo de salida del segundo sumador
+
 ![Resultado de la suma binaria representado con LEDS](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SALIDAS.PNG)
 
 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
