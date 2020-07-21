@@ -109,6 +109,8 @@ Donde: B0 es el bit menos significativo y B7 es el más significativo
 S8, S7, S6, S5, S4, S3, S2, S1, S0
 Donde: S0 es el bit menos significativo y S8 (acarreo) es el más significativo.
 
+![Salidas del Sumador]https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SALIDAS1.PNG()
+
 * Para realizar el proceso de la suma binaria se utiliza el circuito integrado 74LS283 que cumple la función de sumador.
 
 ![Sumador LS74283](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SUM.png)
