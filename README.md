@@ -2,6 +2,14 @@ Informe
 
 1. PLANTEAMIENTO DEL PROBLEMA
 
+En la rama de los circuitos digitales se emplean operaciones aritméticas binarias en el diseño de diversos circuitos, entre estas operaciones se encuentra la suma. Si bien se conoce que existen compuertas lógicas que permiten realizar este proceso como es el caso del circuito integrado 74LS32 que posee cuatro compuertas en su estructura, existen otros integrados que realizan la misma operación y se denominan sumadores.
+
+Cuando se utilizan compuertas lógicas OR (suma) se tiene un número limitado de variables de entrada puesto que si se desea trabajar con un número elevado de estas variables, el proceso de obtención de las funciones lógicas resultantes y la implementación del diseño van a complicarse debido al elevado número de circuitos integrados que se utilizarán y por consecuencia no habrá una optimización de diseño y su construcción será más costosa.
+
+Para esta limitante se emplean los circuitos integrados sumadores; un solo integrado de este tipo realiza la suma de hasta 8 variables de entrada (dos números 4 bits) lo cual facilita el diseño, interpretación, optimización e implementación.
+
+En base los puntos planteados se pretende implementar un circuito sumador de dos números de 8 bits (16 variables de entrada) utilizando un circuito integrado sumador: LS74283 y visualizar su resultado en displays de 7 segmentos.
+
 2. OBJETIVOS
 
 3. ESTADO DEL ARTE
