@@ -96,6 +96,7 @@ Para la implementación del sumador de 8 bits se dio uso al integrado 74283
 ![Diagrama de bloques: Sumador 8 Bits](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENTRADAS.png)
 
 **Entradas**
+
 **Número A**: A7, A6, A5, A4, A3, A2, A1, A0
 Donde: A0 es el bit menos significativo y A7 es el más significativo
 
