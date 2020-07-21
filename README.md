@@ -91,7 +91,8 @@ Para la implementación del sumador de 8 bits se dio uso al integrado 74283
 7. MAPA DE VARIABLES
 
 8. EXPLICACIÓN DEL CÓDIGO FUENTE
- 1. Para realizar el circuito sumador de dos números de 8 bits primero se definen las variables de entrada y salida que tendrá el circuito, todas se encuentran en lógica positiva y se presentan de la siguiente forma.
+
+1. Para realizar el circuito sumador de dos números de 8 bits primero se definen las variables de entrada y salida que tendrá el circuito, todas se encuentran en lógica positiva y se presentan de la siguiente forma.
 ![Diagrama de bloques: Sumador 8 Bits](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENTRADAS.png)
 
 **Entradas**
