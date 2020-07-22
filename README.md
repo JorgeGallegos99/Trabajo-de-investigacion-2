@@ -146,6 +146,27 @@ S8=Acarreo de salida del segundo sumador
 
 ![Resultado de la suma binaria representado con LEDS](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SALIDAS.PNG)
 
+* Para visualizar este resultado en un display de 7 segmentos se utiliza el decodificador 4511 conectado a las salidas de cada sumador y a su vez a las entradas del display junto con resistencias para evitar que el dispositivo sufra daños.
+
+![Decodificador 4511]()
+
+* Para conectar el display se debe tomar en cuenta la estructura que posee, para este circuito se usa un display 7 segmentos cátodo común. Esto quiere decir que el pin común del display debe ir conectado a tierra:
+
+![Display 7 seg catodo común]()
+
+Hay que tomar en cuenta que para los displays de 7 segmentos el número más alto que se puede visualizar es el nueve, por lo tanto cuando el resultado de la suma implique un número mayor al indicado, no se va a encender el display:
+
+![Display encendido]()
+![Display apagado]()
+
+El resultado se todos estos procesos da un circuito sumador de dos números de 8 bits como se muestra a continuación en el software de simulación Proteus:
+
+![Simulación Proteus]()
+
+La implementación del circuito en el laboratorio virtual Tinkercad se presenta de la siguiente forma:
+
+![Simulación Tinkercad]()
+
 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
 10. APORTACIONES
