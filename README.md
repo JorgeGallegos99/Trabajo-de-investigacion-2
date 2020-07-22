@@ -148,24 +148,24 @@ S8=Acarreo de salida del segundo sumador
 
 * Para visualizar este resultado en un display de 7 segmentos se utiliza el decodificador 4511 conectado a las salidas de cada sumador y a su vez a las entradas del display junto con resistencias para evitar que el dispositivo sufra daños.
 
-![Decodificador 4511]()
+![Decodificador 4511](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DECODIFICADOR.PNG)
 
 * Para conectar el display se debe tomar en cuenta la estructura que posee, para este circuito se usa un display 7 segmentos cátodo común. Esto quiere decir que el pin común del display debe ir conectado a tierra:
 
-![Display 7 seg catodo común]()
+![Display 7 seg catodo común](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DISPLAY.PNG)
 
 Hay que tomar en cuenta que para los displays de 7 segmentos el número más alto que se puede visualizar es el nueve, por lo tanto cuando el resultado de la suma implique un número mayor al indicado, no se va a encender el display:
 
-![Display encendido]()
-![Display apagado]()
+![Display encendido](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DISPLAYENCENDIDO.png)
+![Display apagado](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DISPLAYAPAGADO.png)
 
 El resultado se todos estos procesos da un circuito sumador de dos números de 8 bits como se muestra a continuación en el software de simulación Proteus:
 
-![Simulación Proteus]()
+![Simulación Proteus](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SimulacionProteus.png)
 
 La implementación del circuito en el laboratorio virtual Tinkercad se presenta de la siguiente forma:
 
-![Simulación Tinkercad]()
+![Simulación Tinkercad](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SimulacionTinkercad.png)
 
 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
