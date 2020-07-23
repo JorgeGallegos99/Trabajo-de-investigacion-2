@@ -1,6 +1,6 @@
-Informe
+## Informe
 
-# 1. PLANTEAMIENTO DEL PROBLEMA
+### 1. PLANTEAMIENTO DEL PROBLEMA
 
 En la rama de los circuitos digitales se emplean operaciones aritméticas binarias en el diseño de diversos circuitos, entre estas operaciones se encuentra la suma. Si bien se conoce que existen compuertas lógicas que permiten realizar este proceso como es el caso del circuito integrado 74LS32 que posee cuatro compuertas en su estructura, existen otros integrados que realizan la misma operación y se denominan sumadores.
 
@@ -10,11 +10,41 @@ Para esta limitante se emplean los circuitos integrados sumadores; un solo integ
 
 En base los puntos planteados se pretende implementar un circuito sumador de dos números de 8 bits (16 variables de entrada) utilizando un circuito integrado sumador: LS74283 y visualizar su resultado en displays de 7 segmentos.
 
-# 2. OBJETIVOS
+### 2. OBJETIVOS
 
-3. ESTADO DEL ARTE
+**General**
 
-4. MARCO TEÓRICO
+* Diseñar simular e implementar un circuito que permita la suma de dos números, cada uno con 8 bits el resultado debe mostrarse en displays de 7 segmentos,en Thinkercad  con la utilización de los integrados 74283 y 4511.
+
+**Específicos**
+
+* Analizar el circuito a diseñar para obtener un resuel funcionamiento de cada integrado para el diseño del circuito sumador de dos números de  
+Utilizar la plataforma Thinkercad para la implementación del circuito
+
+
+### 3. ESTADO DEL ARTE
+
+**Diseño e implementación de sumadores de 32 bits utilizando varios sumadores completos**
+
+En este articulo se diseñan sumadores de 32 bits, Ripple Carry Adder (RCA), Carry Increment adder (CINA) y Carry bypass adder (CBYA) para realizar un sumador completo utilizando Verilog HDL. Los resultados se obtienen ejecutando el código Verilog en Xilinx 14.5 ISE para el dispositivo de la familia Spartan 3E con velocidad de grado -5.
+
+**Autores:**
+
+•	K. Anirudh Kumar Maurya
+ECE Department, SRKR Enigineering College, Bhimavaram, India
+•	Y. Rama Lakshmanna
+ECE Department, SRKR Enigineering College, Bhimavaram, India
+•	K. Bala Sindhuri
+ECE Department, SRKR Engineering College, Bhimavaram, India
+•	N. Udaya Kumar
+ECE Department, SRKR Enigineering College, Bhimavaram, India
+
+**Fecha y lugar de publicación:**
+Fecha: 21-22 April 2017 en la conferencia Innovaciones 2017 en energía y tecnologías de computación avanzadas (i-PACT)
+Este artículo guarda relación con el trabajo de investigación, ya que realiza la suma de 32 bits que es la misma cantidad de bits con los que estamos trabajando sin embargo son diferentes ya que utilizan otro tipo de sumadores y los resultados mostrados también son mostrados de diferente forma.
+
+
+### 4. MARCO TEÓRICO
 
 **Circuitos Aritméticos**
 
