@@ -18,8 +18,9 @@ En base los puntos planteados se pretende implementar un circuito sumador de dos
 
 **Específicos**
 
-* Analizar el circuito a diseñar para obtener un resuel funcionamiento de cada integrado para el diseño del circuito sumador de dos números de  
-Utilizar la plataforma Thinkercad para la implementación del circuito
+* Entender el funcionamiento de los sumadores para armar el circuito requerido. 
+* 
+* Utilizar la plataforma Thinkercad para la implementación del circuito.
 
 
 ### 3. ESTADO DEL ARTE
