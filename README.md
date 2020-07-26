@@ -89,7 +89,7 @@ La suma o adición binaria es análoga a la de los números decimales. La difere
 
  ![jf1](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf1.jpg)
 
-**Figura 1:**: Muestra las reglas que debemos seguir cuando realizamos las operaciones de suma binaria.
+**Figura 1:** Reglas de la Suma Binaria
 
 **Semisumador**
 
@@ -100,12 +100,13 @@ La tabla de verdad de este circuito puede deducirse a partir de las La tabla de 
 
 ![jf2](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf2.png)
 
-**Figura 2:** Tabla de verdad 
+**Figura 2:** Tabla de verdad del Semisumador.
+
 A partir de esta tabla de verdad se puede observar que la suma puede implementarse con una operación XOR y el acarreo de salida con una operación AND(Canaria, 2012).
 
 ![jf3](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf3.png)
 
-**Figura 3:** Tabla de verdad 
+**Figura 3:** Esquema del Semisumador
 
 **Sumador Completo**
 
@@ -113,32 +114,32 @@ La principal diferencia diferencia entre un sumador completo y un semisumador es
 
  ![jf4](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf4.png)
  
- **Figura 4:** Sumador
+ **Figura 4:** Tabla de verdad del Sumador Completo
 
 Dado que la suma de dos bits está dada la operación XOR, también podemos expresar dicha suma  con un acarreo de la siguiente forma:
 
 ![jf5](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf5.png)
 
-**Figura 5:** Sumador
+**Figura 5:** Expresión lógica del Sumador Completo
 
 El acarreo de salida sera 1 entonces cuando A y B sean 1 o cuando A+B sea 1 al igual que el acarreo de entrada.
 
 ![jf6](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf6.png)
 
-**Figura 6:** Sumador
+**Figura 6:** Expresión Lógica
 
 De esta forma se puede implementar el circuito sumador completo usando dos compuertas XOR, dos compuestas AND y una compuerta OR.
 
 ![jf7](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf7.png)
 
-**Figura 7:** Sumador
+**Figura 7:** Esquema del Sumador Completo
 
 También es posible implementar el sumador completo utilizando dos circuitos semisumadores, el primer semisumador suma los dos bits, el segundo suma el resultado con el acarreo 
 de entrada y habrá acarreo de salida si cualquiera  de los dos semisumadores genera un acarreo.
 
 ![jf8](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf8.png)
 
-**Figura 8:** Sumador
+**Figura 8:** Sumador COmpleto a Partir de Semisumadores en Cascada
 
 **Sumadores con Acarreo en Cascada**
 
@@ -148,20 +149,19 @@ El proceso puede extenderse usando cuaquier sumador como elemento básico: por e
 
 ![jf9](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf9.png)
 
-**Figura 9:** Sumador
+**Figura 9:** Sumadore de 4 bits
 
 El principal problema de esta conexión en serie de sumadores es que el retardo del circuito depende de la propagación del acarreo a lo largo de todo el sumador.
 
 ![jf10](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf10.png)
 
-**Figura 10:** Sumador
+**Figura 10:** Sumador de 8 bits 
 
 Para la implementación del sumador de 8 bits se dio uso al integrado 74283
 
 ![jf11](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf11.jpg)
 
-**Figura 11:** Sumador
-
+**Figura 11:** Integrado 74283
 
 ### 5. DIAGRAMAS
 
