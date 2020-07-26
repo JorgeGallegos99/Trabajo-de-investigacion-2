@@ -228,25 +228,28 @@ http://serdis.dis.ulpgc.es/~gii-fc/material_clases_teoria/Tema3/Tema3_1_Componen
 
 15.1.  MANUAL DE USUARIO
 
-* Para realizar la operación suma entre dos números de 8 bits se debe ingresar los números deseados por los dip switchs del circuito: 
+* Primero se debe encender el suministro de energía para alimentar al circuito:
+![Energia](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENERGIA.PNG)
+
+Para realizar la operación suma entre dos números de 8 bits se debe ingresar los números deseados por los dip switchs del circuito: 
 A7-B7: Bit más significativo
 A0-B0: Bit menos significativo
 
-![Entradas del circuito en dip switch]()
+![Entradas del circuito en dip switch](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/INGRESO.PNG)
 
 * Los números ingresados pasan a los sumadores que realizan la operación bit a bit:
 
-![Sumadores]()
+![Sumadores](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SUMADORES.PNG)
 
 * El resultado se muestra en la salida de los LEDS de forma binaria:
 Encendido: 1 
 Apagado: 0
 
-![Salida en LEDS]()
+![Salida en LEDS](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SALIDABIN.PNG)
 
 * Los números resultantes en forma decimal se muestran en los display de 7 segmentos con ayuda de un decodificador:
 
-![Display de 7SEG]()
+![Display de 7SEG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DECDISPLAY.PNG)
 
 15.2.  HOJAS TÉCNICAS
 
