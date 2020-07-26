@@ -214,8 +214,8 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
   | **N°** |**Componentes Electronicos**	|    
    |-------|------------------------------|
-   |     30|   Resistencias de 330         |    
-   |      2|   Dip Switch 8 entradas        |     
+   |     30|   Resistencias de 330        |    
+   |      2|   Dip Switch 8 entradas      |     
    |      1|   Fuente de 5 V              |   
    |      8|   Led Green                  | 
    |      2|   Display 7 segmentos        | 
@@ -224,19 +224,17 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
  |**Variable **| 	**Tipo **     | **Descripción** |     
  |-------------|----------------|-------------------|
- |A0,A1,A2,A3,A4,A5,A6,A7|  Entrada|Son los bits de Entrada del numero A donde A7 es el bit mas significativo
-y A0 es el bit menos significativo|
- |B0,B1,B2,B3,B4,B5,B6,B7| Entrada|B0,B1,B2,B3,B4,B5,B6,B7	Entrada	Son los bits de Entrada del numero B donde B7 es el bit mas significativo
-y B0 es el bit menos significativo|
- |S0,S1,S2,S3,S4,S5,S6,S7	| Salida|Son los bits de Salida del resultado de la suma donde S7 es el bit mas significativo
-y S0 es el bit menos significativo|
- |Ci	| Entrada	|Acarreo de entrada|
- |CO	|Salida	|Acarreo de SalidaSalida|
+ |A0,A1,A2,A3,A4,A5,A6,A7|  Entrada|Son los bits de Entrada del numero A donde A7 es el bit mas significativo y A0 es el bit menos significativo|
+ |B0,B1,B2,B3,B4,B5,B6,B7| Entrada|B0,B1,B2,B3,B4,B5,B6,B7	Entrada	Son los bits de Entrada del numero B donde B7 es el bit mas significativo y B0 es el bit menos significativo|
+ |S0,S1,S2,S3,S4,S5,S6,S7	| Salida|Son los bits de Salida del resultado de la suma donde S7 es el bit mas significativo y S0 es el bit menos significativo|
+ |Ci	  | Entrada	|Acarreo de entrada|
+ |CO	  |Salida	  |Acarreo de SalidaSalida|
 
 ### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 * Para realizar el circuito sumador de dos números de 8 bits primero se definen las variables de entrada y salida que tendrá el circuito, todas se encuentran en lógica positiva y se presentan de la siguiente forma:
 
 ![Diagrama de bloques: Sumador 8 Bits](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENTRADAS.png)
+
 
 **Entradas**
 
@@ -306,11 +304,47 @@ Para ver el circuito completo ingresar en: https://www.tinkercad.com/things/cYY3
 
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
+En el circuito para realizar la conexión entre las salidas de los circuitos y el display de 7 segmentos hicimos uso de un Decodificador 4511 BCD de 7 segmentos cuyas características se muestran en la tabla 9.
+
+| **Código**|**Características**	|    
+|---------- |--------------|
+|   4511    | El CD4511 es un decodificador bcd de 4 bits para display cátodo común, que utiliza tecnología cmos.
+             Recibe en los Pines de entrada a ABCD los datos en código binario y los decodifica a código decimal,
+             siendo posible su exhibición en los display de 7 segmentos.|  
+                                              
+![4511.gif](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/4511.gif)
+
+El circuito fue implementado en la plataforma Thinkercad que ha acontinuación se muestra
+
+|                 **Herramientas de Software**       |                  **Descripción**                      |
+|----------------------------------------------------|-------------------------------------------------------|
+|              Thinkercad                            | Tinkercad es una sencilla aplicación en línea de diseño e impresión en 3D para todos, creado por la empresa Autodesk.
+                                                       Sus ventajas son claras: es sencillo de usar, su aspecto es atractivo y con unas pocas horas de entrenamiento podemos                                                           adquirir mucha destreza en su uso.
+                                                      Como desventaja podríamos señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo                                                         posee una versión online, por lo que hace falta conexión a internet.|
+
+![Thinkercad.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Thinkercad.png)
+
 
 ### 10. APORTACIONES
 
 
 ### 11. CONCLUSIONES
+
+•	Para realizar la suma de dos números de 8 bits se debe realizar una conexión en cascada de dos sumadores para que se refleje el resultado completo.
+
+•	Para el resultado de cualquier operación suma se debe considerar cuales son los números más grandes que se pueden sumar y por lo tanto siempre aumenta un bit a la salida, por lo tanto, si se operan dos números de 8 bits cada uno, el resultado será un binario de 9 bits.
+
+•	Hay que tomar en cuenta que para los displays de 7 segmentos el número más alto que se puede visualizar es el nueve, por lo tanto, cuando el resultado de la suma implique un número mayor al indicado, no se va a encender el display
+
+•	La manera idónea para conectar sumadores es atar el acarreo de salida del sumador de menor peso, con el acarreo de entrada del integrado de mayor peso, y de esta manera el residuo de la suma es transferido para tomar en cuenta cualquier valor que venga acumulado. 
+
+•	Para realizar la suma de dos números de 8 bits se debe realizar una conexión en cascada de dos sumadores para que se refleje el resultado completo.
+
+•	Para el resultado de cualquier operación suma se debe considerar cuales son los números más grandes que se pueden sumar y por lo tanto siempre aumenta un bit a la salida, por lo tanto, si se operan dos números de 8 bits cada uno, el resultado será un binario de 9 bits.
+
+•	Hay que tomar en cuenta que para los displays de 7 segmentos el número más alto que se puede visualizar es el nueve, por lo tanto, cuando el resultado de la suma implique un número mayor al indicado, no se va a encender el display.
+
+•	La manera idónea para conectar sumadores es atar el acarreo de salida del sumador de menor peso, con el acarreo de entrada del integrado de mayor peso, y de esta manera el residuo de la suma es transferido para tomar en cuenta cualquier valor que venga acumulado. 
 
 ### 12. RECOMENDACIONES
 
