@@ -143,8 +143,27 @@ Para la implementación del sumador de 8 bits se dio uso al integrado 74283
 
 5.1. Diagrama de Bloques
 
+Circuito Sumador de 8 bits
+
+![Diagrama_bloques.JPG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Diagrama_bloques.JPG)
+
+circuito Sumador de 8 bits utilizando 2 sumadores de 4 bits conectados en cascada.
+
+
+El circuito  poseen un diagrama de bloques para explicar su funcionamiento.
+
+![Funcionamiento.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Funcionamiento.png)
 
 5.2. Diagramas electrónicos 
+
+A continuación se muestra el diagramas Electrónico, simulacion del diseños en Proteus.
+
+![Funcionamiento.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Funcionamiento.png)
+
+A continuación se muestra el diagrama Electrónico en THINKERCAD.
+
+![Funcionamiento.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Funcionamiento.png)
+
 
 6. LISTA DE COMPONENTES
 
