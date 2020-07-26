@@ -327,6 +327,17 @@ El circuito fue implementado en la plataforma Thinkercad como se muestra que ha 
 
 ### 10. APORTACIONES
 
+**Constructor virtual de circuitos**
+
+Esta útil herramienta la usamos para poder comprobar si la implementación hecha en Tinkercad era correcta, ya que también nos permite simular circuitos digitales para corroborar el correcto funcionamiento de nuestro circuito debido a que durante la realización del mismo se presentaron una serie de complicaciones que posterior mente fueron solucionadas con ayuda de este Simulador virtual.
+Sencillo, intuitivo, pero poderoso simulador de circuitos digitales, cuenta con todas las compuertas lógicas y una interfaz fácil y rápida de aprender y dominar.
+
+Por su diseño en forma de protoboard asemeja el circuito real sirviendo ademas como guía para ensamblar el circuito de forma física.
+
+Se incluye ademas el manual TTL con los datasheet de cada compuerta y circuito integrado de la familia de los TTL, donde se puede consultar el diagrama interno de cada uno y su funcionamiento.
+
+Constructor Virtual de Circuitos Electrónicos y Manual TTL, ideal para quienes inician en el mundo de la electrónica digital, practicar el uso de la Protoboard etc.
+
 
 ### 11. CONCLUSIONES
 
@@ -349,6 +360,8 @@ El circuito fue implementado en la plataforma Thinkercad como se muestra que ha 
 ### 12. RECOMENDACIONES
 
 ### 13. CRONOGRAMA
+
+![jcronograma](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jcronograma.png)
 
 ### 14. BIBLIOGRAFÍA
 
@@ -391,8 +404,3 @@ Apagado: 0
 * Los números resultantes en forma decimal se muestran en los display de 7 segmentos con ayuda de un decodificador:
 
 ![Display de 7SEG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DECDISPLAY.PNG)
-
-
-
-
-
