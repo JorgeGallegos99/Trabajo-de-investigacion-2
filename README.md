@@ -26,6 +26,11 @@ En base los puntos planteados se pretende implementar un circuito sumador de dos
 
 ### 3. ESTADO DEL ARTE
 
+**Un enfoque novedoso para la realización reversible del circuito sumador-sustractor de 8 bits con costo cuántico optimizado**
+
+Este documento se presenta dos enfoques de diseño para la realización reversible del circuito sumador-sustractor de 8 bits con costo cuántico optimizado. Estos diseños se comparan con los diseños existentes en algunos parámetros de rendimiento seleccionados, como el número total de puertas reversibles, salidas de basura y costo cuántico. 
+
+
 **Un estudio comparativo sobre sumadores**
 
 En el articulo se realiza un comparación entres los sumadores, todos de 4 bits y se han sintetizado con la herramienta de síntesis Xilinx y se han simulado con la herramienta de simulación Xilinx. Los resultados de los informes de síntesis y la simulación del circuito ayudan a descubrir las diferentes propiedades de los sumadores,que son las que marcan la diferencia en la operación y el rendimiento de los mismos.
