@@ -198,6 +198,8 @@ S8=Acarreo de salida del segundo sumador
 
 ![Simulación Tinkercad](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SimulacionTinkercad.png)
 
+Para ver el circuito completo ingresar en: https://www.tinkercad.com/things/cYY3aJ8o0qT-sumador-de-8-bits/editel?sharecode=WZe_mOvoBysl6DT_NBUMBbBigi_x7lmxiFtQwO06Kec
+
 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
 10. APORTACIONES
@@ -225,6 +227,26 @@ http://serdis.dis.ulpgc.es/~gii-fc/material_clases_teoria/Tema3/Tema3_1_Componen
 15. ANEXOS
 
 15.1.  MANUAL DE USUARIO
+
+* Para realizar la operación suma entre dos números de 8 bits se debe ingresar los números deseados por los dip switchs del circuito: 
+A7-B7: Bit más significativo
+A0-B0: Bit menos significativo
+
+![Entradas del circuito en dip switch]()
+
+* Los números ingresados pasan a los sumadores que realizan la operación bit a bit:
+
+![Sumadores]()
+
+* El resultado se muestra en la salida de los LEDS de forma binaria:
+Encendido: 1 
+Apagado: 0
+
+![Salida en LEDS]()
+
+* Los números resultantes en forma decimal se muestran en los display de 7 segmentos con ayuda de un decodificador:
+
+![Display de 7SEG]()
 
 15.2.  HOJAS TÉCNICAS
 
