@@ -14,23 +14,42 @@ En base los puntos planteados se pretende implementar un circuito sumador de dos
 
 **General**
 
-* Diseñar simular e implementar un circuito que permita la suma de dos números, cada uno con 8 bits el resultado debe mostrarse en displays de 7 segmentos,en Thinkercad  con la utilización de los integrados 74283 y 4511.
+* Diseñar un circuito sumador de dos números de 8 bits, utilizando el integrado 74283 y el resultado del sumador debe mostrarse en displays de 7 segmentos, para el cual se debe realizar la simulación y la implementación correspondiente en la plataforma THINKERCAD .
 
 **Específicos**
 
-* Entender el funcionamiento de los sumadores para armar el circuito requerido. 
-* 
-* Utilizar la plataforma Thinkercad para la implementación del circuito.
+* Entender el funcionamiento de los sumadores,sus caracteristicas, que configuración tienen y como se utilizan para armar el circuito requerido.  
+* Utilizar los integrados 74283 para la suma y el decodificador 4511, bcd para display de 7 segmentos para mostrar el resultado.
+* Simular el circuito diseñado en el simulador Proteus y comprobar su funcionamiento.
+* Implementar el circuito diseñado en la plataforma virtual Thinkercad.
 
 
 ### 3. ESTADO DEL ARTE
+
+**Un estudio comparativo sobre sumadores**
+
+En el articulo se realiza un comparacion entres los sumadores, todos de 4 bits y se han sintetizado con la herramienta de síntesis Xilinx y se han simulado con la herramienta de simulación Xilinx. Los resultados de los informes de síntesis y la simulación del circuito ayudan a descubrir las diferentes propiedades de los sumadores,que son las que marcan la diferencia en la operación y el rendimiento de los mismos.
+
+**Fecha y lugar de publicación:**
+*Fecha:*  22-24 de marzo de 2017
+*lugar:*  Chennai, India en 2017 Conferencia internacional sobre comunicaciones inalámbricas, procesamiento de señales y redes (WiSPNET)
+
+**Autores**
+- Bhavani Koyada
+MGIT, JNTUH, Hyderabad
+- N. Meghana
+MGIT, JNTUH, Hyderabad
+- MD Omair Jaleel
+MGIT, JNTUH, Hyderabad
+- Praneet Raj Jeripotula
+MGIT, JNTUH, Hyderabad
+
 
 **Diseño e implementación de sumadores de 32 bits utilizando varios sumadores completos**
 
 En este articulo se diseñan sumadores de 32 bits, Ripple Carry Adder (RCA), Carry Increment adder (CINA) y Carry bypass adder (CBYA) para realizar un sumador completo utilizando Verilog HDL. Los resultados se obtienen ejecutando el código Verilog en Xilinx 14.5 ISE para el dispositivo de la familia Spartan 3E con velocidad de grado -5.
 
 **Autores:**
-
 •	K. Anirudh Kumar Maurya
 ECE Department, SRKR Enigineering College, Bhimavaram, India
 •	Y. Rama Lakshmanna
@@ -42,7 +61,8 @@ ECE Department, SRKR Enigineering College, Bhimavaram, India
 
 **Fecha y lugar de publicación:**
 Fecha: 21-22 April 2017 en la conferencia Innovaciones 2017 en energía y tecnologías de computación avanzadas (i-PACT)
-Este artículo guarda relación con el trabajo de investigación, ya que realiza la suma de 32 bits que es la misma cantidad de bits con los que estamos trabajando sin embargo son diferentes ya que utilizan otro tipo de sumadores y los resultados mostrados también son mostrados de diferente forma.
+
+Este artículo guarda relación con el trabajo de investigación, ya que realiza hacen uso de los sumadores completos al igual que nuestro trabajo sin embargo los bits a sumarse y los tipos de sumadores cambian y para mostrar el resultado no usan displays como en el presente trabajo sino  también son mostrados de diferente forma.
 
 
 ### 4. MARCO TEÓRICO
@@ -122,6 +142,7 @@ Para la implementación del sumador de 8 bits se dio uso al integrado 74283
 5. DIAGRAMAS
 
 5.1. Diagrama de Bloques
+
 
 5.2. Diagramas electrónicos 
 
