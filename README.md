@@ -82,45 +82,58 @@ funciones en hardware, en muchos casos, presentan ventajas en cuanto a velocidad
 
 La suma o adición binaria es análoga a la de los números decimales. La diferencia radica en que en los números binarios se produce un acarreo (carry) cuando la suma excede de uno mientras en decimal se produce un acarreo cuando la suma excede de nueve (Hoyos Padilla, 2010).
 
-![jf1](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf1.jpg)
+ ![jf1](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf1.jpg)
 
-la figura muestra las reglas que debemos seguir cuando realizamos las operaciones de suma binaria.
+**Figura 1:**: Muestra las reglas que debemos seguir cuando realizamos las operaciones de suma binaria.
 
 **Semisumador**
 
 Se denomina semisumador a un circuito que admite dos bits como entrada y genera  como salida  un bit que representa la suma de los dos bits de entrada y otro bit que representa 
 el acarreo generado por la suma.
 
-La tabla de verdad de este circuito puede deducirse a partir de las La tabla de verdad de este circuito puede deducirse a partir de las reglas de la suma binaria (Véase Fig. ).
+La tabla de verdad de este circuito puede deducirse a partir de las La tabla de verdad de este circuito puede deducirse a partir de las reglas de la suma binaria (Véase Fig.2).
 
 ![jf2](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf2.png)
 
+**Figura 2:** Tabla de verdad 
 A partir de esta tabla de verdad se puede observar que la suma puede implementarse con una operación XOR y el acarreo de salida con una operación AND(Canaria, 2012).
 
 ![jf3](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf3.png)
+
+**Figura 3:** Tabla de verdad 
 
 **Sumador Completo**
 
 La principal diferencia diferencia entre un sumador completo y un semisumador es que el sumador completo admite un valor que representa un acarreo de entrada.
 
-![jf4](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf4.png)
+ ![jf4](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf4.png)
+ 
+ **Figura 4:** Sumador
 
 Dado que la suma de dos bits está dada la operación XOR, también podemos expresar dicha suma  con un acarreo de la siguiente forma:
 
 ![jf5](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf5.png)
 
+**Figura 5:** Sumador
+
 El acarreo de salida sera 1 entonces cuando A y B sean 1 o cuando A+B sea 1 al igual que el acarreo de entrada.
 
 ![jf6](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf6.png)
+
+**Figura 6:** Sumador
 
 De esta forma se puede implementar el circuito sumador completo usando dos compuertas XOR, dos compuestas AND y una compuerta OR.
 
 ![jf7](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf7.png)
 
+**Figura 7:** Sumador
+
 También es posible implementar el sumador completo utilizando dos circuitos semisumadores, el primer semisumador suma los dos bits, el segundo suma el resultado con el acarreo 
 de entrada y habrá acarreo de salida si cualquiera  de los dos semisumadores genera un acarreo.
 
 ![jf8](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf8.png)
+
+**Figura 8:** Sumador
 
 **Sumadores con Acarreo en Cascada**
 
@@ -130,46 +143,97 @@ El proceso puede extenderse usando cuaquier sumador como elemento básico: por e
 
 ![jf9](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf9.png)
 
+**Figura 9:** Sumador
+
 El principal problema de esta conexión en serie de sumadores es que el retardo del circuito depende de la propagación del acarreo a lo largo de todo el sumador.
 
 ![jf10](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf10.png)
+
+**Figura 10:** Sumador
 
 Para la implementación del sumador de 8 bits se dio uso al integrado 74283
 
 ![jf11](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jf11.jpg)
 
+**Figura 11:** Sumador
 
-5. DIAGRAMAS
 
-5.1. Diagrama de Bloques
+### 5. DIAGRAMAS
 
-Circuito Sumador de 8 bits
+**5.1. Diagrama de Entradas y Salidas del Circuito.**
+
+![ent_sal.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ent_sal.png)
+
+**Figura 12:** Entradas y salidas del Circuito.
+
+**5.2. Diagrama de Bloques del Circuito Sumador de 8 bits**
 
 ![Diagrama_bloques.JPG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Diagrama_bloques.JPG)
 
-circuito Sumador de 8 bits utilizando 2 sumadores de 4 bits conectados en cascada.
+**Figura 13:** Circuito Sumador de 8 bits utilizando 2 sumadores de 4 bits conectados en cascada.
 
-
-El circuito  poseen un diagrama de bloques para explicar su funcionamiento.
+**5.3. Diagrama de Bloques del funcionamiento del circuito Sumador de 8 bits.**
 
 ![Funcionamiento.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Funcionamiento.png)
 
-5.2. Diagramas electrónicos 
+**Figura 14:** En el Diagrama explica el funcionamiento del circuito Sumador de 8 bits.
+
+**5.4. Diagramas electrónicos** 
 
 A continuación se muestra el diagramas Electrónico, simulacion del diseños en Proteus.
 
-![Funcionamiento.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Funcionamiento.png)
+![Simulación Proteus](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SimulacionProteus.png)
+
+**Figura 15:** Diseño de circuito Sumador de 8 bits.
 
 A continuación se muestra el diagrama Electrónico en THINKERCAD.
 
-![Funcionamiento.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Funcionamiento.png)
+![Simulación Tinkercad](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SimulacionTinkercad.png)
 
+**Figura 16:** Implementación del circuito Sumador de 8 bits.
 
-6. LISTA DE COMPONENTES
+### 6. LISTA DE COMPONENTES
 
-7. MAPA DE VARIABLES
+En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion del circuito se utilizó un simulador y la plataforma para la implementación.
+**Tabla 1: Herramientas de Software usadas para el diseño de los 3 circuitos.**
 
-8. EXPLICACIÓN DEL CÓDIGO FUENTE
+   |     **Herramientas de Software**      |                 
+   |---------------------------------------|
+   |            Proteus                    | 
+   |           Thinkercad                  |
+  
+   
+**Tabla 2: Datos de los integrados usados para el diseño de Circuito Sumador de 8 bits**
+
+   | **N°  |   Integrados |   Códigos**    |     
+   |-------|--------------|----------------|
+   |      1|   Sumador	  |     74283      |
+   |      1| Decodificador|     4511       |
+  
+**Tabla 3: Componentes electronicos del Circuito Sumador de 8 bits**
+
+  | **N°** |**Componentes Electronicos**	|    
+   |-------|------------------------------|
+   |     30|   Resistencias de 330         |    
+   |      2|   Dip Switch 8 entradas        |     
+   |      1|   Fuente de 5 V              |   
+   |      8|   Led Green                  | 
+   |      2|   Display 7 segmentos        | 
+
+### 7. MAPA DE VARIABLES
+
+ |**Variable **| 	**Tipo **     | **Descripción** |     
+ |-------------|----------------|-------------------|
+ |A0,A1,A2,A3,A4,A5,A6,A7|  Entrada|Son los bits de Entrada del numero A donde A7 es el bit mas significativo
+y A0 es el bit menos significativo|
+ |B0,B1,B2,B3,B4,B5,B6,B7| Entrada|B0,B1,B2,B3,B4,B5,B6,B7	Entrada	Son los bits de Entrada del numero B donde B7 es el bit mas significativo
+y B0 es el bit menos significativo|
+ |S0,S1,S2,S3,S4,S5,S6,S7	| Salida|Son los bits de Salida del resultado de la suma donde S7 es el bit mas significativo
+y S0 es el bit menos significativo|
+ |Ci	| Entrada	|Acarreo de entrada|
+ |CO	|Salida	|Acarreo de SalidaSalida|
+
+### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
 * Para realizar el circuito sumador de dos números de 8 bits primero se definen las variables de entrada y salida que tendrá el circuito, todas se encuentran en lógica positiva y se presentan de la siguiente forma:
 
 ![Diagrama de bloques: Sumador 8 Bits](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENTRADAS.png)
@@ -240,17 +304,19 @@ S8=Acarreo de salida del segundo sumador
 
 Para ver el circuito completo ingresar en: https://www.tinkercad.com/things/cYY3aJ8o0qT-sumador-de-8-bits/editel?sharecode=WZe_mOvoBysl6DT_NBUMBbBigi_x7lmxiFtQwO06Kec
 
-9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
+### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
-10. APORTACIONES
 
-11. CONCLUSIONES
+### 10. APORTACIONES
 
-12. RECOMENDACIONES
 
-13. CRONOGRAMA
+### 11. CONCLUSIONES
 
-14. BIBLIOGRAFÍA
+### 12. RECOMENDACIONES
+
+### 13. CRONOGRAMA
+
+### 14. BIBLIOGRAFÍA
 
 https://wilaebaelectronica.blogspot.com/2017/01/sumador-binario.html
 
@@ -264,9 +330,9 @@ http://circuitos-aritmeticos.blogspot.com/
 
 http://serdis.dis.ulpgc.es/~gii-fc/material_clases_teoria/Tema3/Tema3_1_Componentes_combinacionales_FC_GII.pdf
 
-15. ANEXOS
+### 15. ANEXOS
 
-15.1.  MANUAL DE USUARIO
+**15.1.  MANUAL DE USUARIO**
 
 * Primero se debe encender el suministro de energía para alimentar al circuito:
 
@@ -292,7 +358,7 @@ Apagado: 0
 
 ![Display de 7SEG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DECDISPLAY.PNG)
 
-15.2.  HOJAS TÉCNICAS
+
 
 
 
