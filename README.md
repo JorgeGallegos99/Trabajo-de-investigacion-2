@@ -229,12 +229,13 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
  |**Variable | 	Tipo   | Descripción** |     
  |-------------|----------------|-------------------|
  |A0,A1,A2,A3,A4,A5,A6,A7|  Entrada|Son los bits de Entrada del numero A donde A7 es el bit mas significativo y A0 es el bit menos significativo|
- |B0,B1,B2,B3,B4,B5,B6,B7| Entrada|B0,B1,B2,B3,B4,B5,B6,B7	Entrada	Son los bits de Entrada del numero B donde B7 es el bit mas significativo y B0 es el bit menos significativo|
+ |B0,B1,B2,B3,B4,B5,B6,B7| Entrada|	Son los bits de Entrada del numero B donde B7 es el bit mas significativo y B0 es el bit menos significativo|
  |S0,S1,S2,S3,S4,S5,S6,S7	| Salida|Son los bits de Salida del resultado de la suma donde S7 es el bit mas significativo y S0 es el bit menos significativo|
  |Ci	  | Entrada	|Acarreo de entrada|
  |CO	  |Salida	  |Acarreo de SalidaSalida|
 
 ### 8. EXPLICACIÓN DEL CÓDIGO FUENTE
+
 * Para realizar el circuito sumador de dos números de 8 bits primero se definen las variables de entrada y salida que tendrá el circuito, todas se encuentran en lógica positiva y se presentan de la siguiente forma:
 
 ![Diagrama de bloques: Sumador 8 Bits](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENTRADAS.png)
@@ -264,6 +265,7 @@ Donde: S0 es el bit menos significativo y S8 (acarreo) es el más significativo.
 Donde A0 - A3 representan los cuatro primeros bits del número A y B0 - B3 del número B, sin embargo, los números de las entradas son de 8 Bits de magnitud entonces para realizar la suma se necesita realizar una conexión en cascada entre dos sumadores.
 
 Para que se cumpla el proceso se debe conocer las reglas de la suma binaria:
+
 ![Reglas de la suma binaria](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/REGLASUMA.PNG)
 
 El integrado 74LS283 tiene dos pines que representan el acarreo de entrada y salida, entonces para realizar la conexión en cascada: el acarreo de salida del primer sumador es el acarreo de entrada del segundo, por lo tanto, ambos se encuentran conectados y en las entradas del integrado se colocan las cuatro variables restantes de los números A y B, las cuales son: A4 - A7 y B4 - B7 identificando la conexión de los bits más y menos significativos.
@@ -337,12 +339,15 @@ El circuito fue implementado en la plataforma Thinkercad como se muestra que ha 
 Esta útil herramienta la usamos para poder comprobar si la implementación hecha en Tinkercad era correcta, ya que también nos permite simular circuitos digitales para corroborar el correcto funcionamiento de nuestro circuito debido a que durante la realización del mismo se presentaron una serie de complicaciones que posterior mente fueron solucionadas con ayuda de este Simulador virtual.
 Sencillo, intuitivo, pero poderoso simulador de circuitos digitales, cuenta con todas las compuertas lógicas y una interfaz fácil y rápida de aprender y dominar.
 
+![jAportaciones](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jAportaciones.jpeg)
+
 Por su diseño en forma de protoboard asemeja el circuito real sirviendo ademas como guía para ensamblar el circuito de forma física.
 
 Se incluye ademas el manual TTL con los datasheet de cada compuerta y circuito integrado de la familia de los TTL, donde se puede consultar el diagrama interno de cada uno y su funcionamiento.
 
 Constructor Virtual de Circuitos Electrónicos y Manual TTL, ideal para quienes inician en el mundo de la electrónica digital, practicar el uso de la Protoboard etc.
 
+![jAporte2](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jAporte2.png)
 
 ### 11. CONCLUSIONES
 
