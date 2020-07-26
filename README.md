@@ -14,12 +14,12 @@ En base los puntos planteados se pretende implementar un circuito sumador de dos
 
 **General**
 
-* Diseñar un circuito sumador de dos números de 8 bits, utilizando el integrado 74283 y el resultado del sumador debe mostrarse en displays de 7 segmentos, para el cual se debe realizar la simulación y la implementación correspondiente en la plataforma THINKERCAD .
+* Diseñar un circuito sumador de dos números de 8 bits, utilizando el integrado 74283 y el resultado del sumador debe mostrarse en displays de 7 segmentos, para comprobar el funcionamiento del circuito se requiere la simulación en el software Proteus y la implementación en plataforma virtual THINKERCAD .
 
 **Específicos**
 
-* Entender el funcionamiento de los sumadores,sus caracteristicas, que configuración tienen y como se utilizan para armar el circuito requerido.  
-* Utilizar los integrados 74283 para la suma y el decodificador 4511, bcd para display de 7 segmentos para mostrar el resultado.
+* Entender el funcionamiento de los sumadores,sus caracteristicas y como se utilizan para armar el circuito Sumador.  
+* Utilizar los integrados 74283 para la suma, y el decodificador 4511 de bcd a display de 7 segmentos para mostrar el resultado.
 * Simular el circuito diseñado en el simulador Proteus y comprobar su funcionamiento.
 * Implementar el circuito diseñado en la plataforma virtual Thinkercad.
 
@@ -28,7 +28,7 @@ En base los puntos planteados se pretende implementar un circuito sumador de dos
 
 **Un estudio comparativo sobre sumadores**
 
-En el articulo se realiza un comparacion entres los sumadores, todos de 4 bits y se han sintetizado con la herramienta de síntesis Xilinx y se han simulado con la herramienta de simulación Xilinx. Los resultados de los informes de síntesis y la simulación del circuito ayudan a descubrir las diferentes propiedades de los sumadores,que son las que marcan la diferencia en la operación y el rendimiento de los mismos.
+En el articulo se realiza un comparación entres los sumadores, todos de 4 bits y se han sintetizado con la herramienta de síntesis Xilinx y se han simulado con la herramienta de simulación Xilinx. Los resultados de los informes de síntesis y la simulación del circuito ayudan a descubrir las diferentes propiedades de los sumadores,que son las que marcan la diferencia en la operación y el rendimiento de los mismos.
 
 **Fecha y lugar de publicación:**
 *Fecha:*  22-24 de marzo de 2017
@@ -44,6 +44,7 @@ MGIT, JNTUH, Hyderabad
 - Praneet Raj Jeripotula
 MGIT, JNTUH, Hyderabad
 
+El Artículo de un estudio comparativo sobre sumadores, se relaciona con nuestro trabajo debido a que analiza los sumadores  de 4 bit que es la herramienta con la cual se diseña el circuito, en el artículo utilizan herramientas más avanzadas analizan las propiedades de cda sumador y hallan el mejor de acuerdo a eso, en el presente trabajo se ha utilizado directamente un tipo de sumador sin embargo al leer el articulo, se entiende que existes otros tipos de sumadores que podían utilizarse de mejor forma.
 
 **Diseño e implementación de sumadores de 32 bits utilizando varios sumadores completos**
 
@@ -62,8 +63,7 @@ ECE Department, SRKR Enigineering College, Bhimavaram, India
 **Fecha y lugar de publicación:**
 Fecha: 21-22 April 2017 en la conferencia Innovaciones 2017 en energía y tecnologías de computación avanzadas (i-PACT)
 
-Este artículo guarda relación con el trabajo de investigación, ya que realiza hacen uso de los sumadores completos al igual que nuestro trabajo sin embargo los bits a sumarse y los tipos de sumadores cambian y para mostrar el resultado no usan displays como en el presente trabajo sino  también son mostrados de diferente forma.
-
+Este artículo guarda relación con el trabajo de investigación, porque utiliza sumadores completos al igual que nuestro trabajo sin embargo los bits a sumarse y los tipos de sumadores cambian y para mostrar el resultado no usan displays como en el presente trabajo sino  también son mostrados de diferente forma sin embargo se semejan porque el objetivo es sumar dos números pero en el diseño se utiliza otro tipo de circuito.
 
 ### 4. MARCO TEÓRICO
 
@@ -222,7 +222,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 ### 7. MAPA DE VARIABLES
 
- |**Variable **| 	**Tipo **     | **Descripción** |     
+ **|Variable | 	Tipo   | Descripción|**      
  |-------------|----------------|-------------------|
  |A0,A1,A2,A3,A4,A5,A6,A7|  Entrada|Son los bits de Entrada del numero A donde A7 es el bit mas significativo y A0 es el bit menos significativo|
  |B0,B1,B2,B3,B4,B5,B6,B7| Entrada|B0,B1,B2,B3,B4,B5,B6,B7	Entrada	Son los bits de Entrada del numero B donde B7 es el bit mas significativo y B0 es el bit menos significativo|
@@ -235,6 +235,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 ![Diagrama de bloques: Sumador 8 Bits](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENTRADAS.png)
 
+**Figura 18** 
 
 **Entradas**
 
@@ -290,6 +291,7 @@ S8=Acarreo de salida del segundo sumador
 * Hay que tomar en cuenta que para los displays de 7 segmentos el número más alto que se puede visualizar es el nueve, por lo tanto cuando el resultado de la suma implique un número mayor al indicado, no se va a encender el display:
 
 ![Display encendido](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DISPLAYENCENDIDO.png)
+
 ![Display apagado](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DISPLAYAPAGADO.png)
 
 * El resultado se todos estos procesos da un circuito sumador de dos números de 8 bits como se muestra a continuación en el software de simulación Proteus:
@@ -307,10 +309,8 @@ Para ver el circuito completo ingresar en: https://www.tinkercad.com/things/cYY3
 En el circuito para realizar la conexión entre las salidas de los circuitos y el display de 7 segmentos hicimos uso de un Decodificador 4511 BCD de 7 segmentos cuyas características se muestran en la tabla 9.
 
 | **Código**|**Características**	|    
-|---------- |--------------|
-|   4511    | El CD4511 es un decodificador bcd de 4 bits para display cátodo común, que utiliza tecnología cmos.
-             Recibe en los Pines de entrada a ABCD los datos en código binario y los decodifica a código decimal,
-             siendo posible su exhibición en los display de 7 segmentos.|  
+|---------- |--------------------|
+|   4511    | El CD4511 es un decodificador bcd de 4 bits para display cátodo común, que utiliza tecnología cmos.                                                                             Recibe en los Pines de entrada a ABCD los datos en código binario y los decodifica a código decimal,                                                                             siendo posible su exhibición en los display de 7 segmentos.|  
                                               
 ![4511.gif](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/4511.gif)
 
@@ -319,8 +319,7 @@ El circuito fue implementado en la plataforma Thinkercad que ha acontinuación s
 |                 **Herramientas de Software**       |                  **Descripción**                      |
 |----------------------------------------------------|-------------------------------------------------------|
 |              Thinkercad                            | Tinkercad es una sencilla aplicación en línea de diseño e impresión en 3D para todos, creado por la empresa Autodesk.
-                                                       Sus ventajas son claras: es sencillo de usar, su aspecto es atractivo y con unas pocas horas de entrenamiento podemos                                                           adquirir mucha destreza en su uso.
-                                                      Como desventaja podríamos señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo                                                         posee una versión online, por lo que hace falta conexión a internet.|
+Sus ventajas son claras: es sencillo de usar, su aspecto es atractivo y con unas pocas horas de entrenamiento podemos                                                           adquirir mucha destreza en su uso. Como desventaja podríamos señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo                                                         posee una versión online, por lo que hace falta conexión a internet.|
 
 ![Thinkercad.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Thinkercad.png)
 
