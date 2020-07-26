@@ -229,6 +229,7 @@ http://serdis.dis.ulpgc.es/~gii-fc/material_clases_teoria/Tema3/Tema3_1_Componen
 15.1.  MANUAL DE USUARIO
 
 * Primero se debe encender el suministro de energía para alimentar al circuito:
+
 ![Energia](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENERGIA.PNG)
 
 Para realizar la operación suma entre dos números de 8 bits se debe ingresar los números deseados por los dip switchs del circuito: 
