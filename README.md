@@ -221,8 +221,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
    |      2|   Display 7 segmentos        | 
 
 ### 7. MAPA DE VARIABLES
-
- **|Variable | 	Tipo   | Descripción|**      
+ |**Variable | 	Tipo   | Descripción** |     
  |-------------|----------------|-------------------|
  |A0,A1,A2,A3,A4,A5,A6,A7|  Entrada|Son los bits de Entrada del numero A donde A7 es el bit mas significativo y A0 es el bit menos significativo|
  |B0,B1,B2,B3,B4,B5,B6,B7| Entrada|B0,B1,B2,B3,B4,B5,B6,B7	Entrada	Son los bits de Entrada del numero B donde B7 es el bit mas significativo y B0 es el bit menos significativo|
@@ -314,14 +313,16 @@ En el circuito para realizar la conexión entre las salidas de los circuitos y e
                                               
 ![4511.gif](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/4511.gif)
 
-El circuito fue implementado en la plataforma Thinkercad que ha acontinuación se muestra
+El circuito fue implementado en la plataforma Thinkercad como se muestra que ha acontinuación
+
+![Thinkercad.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Thinkercad.png)
+
 
 |                 **Herramientas de Software**       |                  **Descripción**                      |
 |----------------------------------------------------|-------------------------------------------------------|
-|              Thinkercad                            | Tinkercad es una sencilla aplicación en línea de diseño e impresión en 3D para todos, creado por la empresa Autodesk.
-Sus ventajas son claras: es sencillo de usar, su aspecto es atractivo y con unas pocas horas de entrenamiento podemos                                                           adquirir mucha destreza en su uso. Como desventaja podríamos señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo                                                         posee una versión online, por lo que hace falta conexión a internet.|
+|              Thinkercad                            | Tinkercad es una sencilla aplicación en línea de diseño e impresión en 3D para todos, creado por la empresa Autodesk. Sus ventajas son claras: es sencillo de usar, su aspecto es atractivo y con unas pocas horas de entrenamiento podemos                                                           adquirir mucha destreza en su uso. Como desventaja podríamos señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo                                                         posee una versión online, por lo que hace falta conexión a internet.|
 
-![Thinkercad.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Thinkercad.png)
+
 
 
 ### 10. APORTACIONES
