@@ -252,7 +252,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
    
 **Tabla 2: Datos de los integrados usados para el diseño de Circuito Sumador de 8 bits**
 
-   | **N°  |   Integrados |   Códigos**    |     
+   | **N°**  |   **Integrados** |   **Códigos**    |     
    |-------|--------------|----------------|
    |      1|   Sumador	  |     74283      |
    |      1| Decodificador|     4511       |
@@ -269,7 +269,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 ### 7. MAPA DE VARIABLES
 
- **|Variable | 	Tipo   | Descripción |**
+ |**Variable** | 	**Tipo**   | **Descripción**|
  |-------------|----------------|-------------------|
  |A0,A1,A2,A3,A4,A5,A6,A7|  Entrada|Son los bits de Entrada del numero A donde A7 es el bit mas significativo y A0 es el bit menos significativo|
  |B0,B1,B2,B3,B4,B5,B6,B7| Entrada|	Son los bits de Entrada del numero B donde B7 es el bit mas significativo y B0 es el bit menos significativo|
