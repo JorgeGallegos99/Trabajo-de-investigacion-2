@@ -240,7 +240,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 ![Diagrama de bloques: Sumador 8 Bits](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENTRADAS.png)
 
-**Figura 18** 
+**Figura 17: ** Diagrama de bloques: Sumador 8 Bits
 
 **Entradas**
 
@@ -252,15 +252,22 @@ Donde: B0 es el bit menos significativo y B7 es el más significativo
 
 ![Entradas en DIPSW](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DIPSENTRADAS.PNG)
 
+**Figura 18: ** Entradas en DIPSW
+
 **Salidas**
+
 S8, S7, S6, S5, S4, S3, S2, S1, S0
 Donde: S0 es el bit menos significativo y S8 (acarreo) es el más significativo.
 
 ![Salidas del Sumador](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SALIDAS1.PNG)
 
+**Figura 19: ** Salidas del Sumador
+
 * Para realizar el proceso de la suma binaria se utiliza el circuito integrado 74LS283 que cumple la función de sumador.
 
 ![Sumador LS74283](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SUM.png)
+
+**Figura 20: ** Sumador LS74283
 
 Donde A0 - A3 representan los cuatro primeros bits del número A y B0 - B3 del número B, sin embargo, los números de las entradas son de 8 Bits de magnitud entonces para realizar la suma se necesita realizar una conexión en cascada entre dos sumadores.
 
@@ -268,9 +275,13 @@ Para que se cumpla el proceso se debe conocer las reglas de la suma binaria:
 
 ![Reglas de la suma binaria](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/REGLASUMA.PNG)
 
+**Figura 21: ** Reglas de la suma binaria
+
 El integrado 74LS283 tiene dos pines que representan el acarreo de entrada y salida, entonces para realizar la conexión en cascada: el acarreo de salida del primer sumador es el acarreo de entrada del segundo, por lo tanto, ambos se encuentran conectados y en las entradas del integrado se colocan las cuatro variables restantes de los números A y B, las cuales son: A4 - A7 y B4 - B7 identificando la conexión de los bits más y menos significativos.
 
 ![Conexión en cascada](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SUMCASCADA.png)
+
+**Figura 22:** Conexión en cascada
 
  * Las salidas de los sumadores representan el resultado de la suma realizada por el circuito integrado y se encuentran conectadas a unos LEDS, de tal forma que cuando el LED se enciende, representa un 1 y cuando se apaga representa un 0.
 Donde:
@@ -286,27 +297,41 @@ S8=Acarreo de salida del segundo sumador
 
 ![Resultado de la suma binaria representado con LEDS](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SALIDAS.PNG)
 
+**Figura 23:** Resultado de la suma binaria representado con LEDS
+
 * Para visualizar este resultado en un display de 7 segmentos se utiliza el decodificador 4511 conectado a las salidas de cada sumador y a su vez a las entradas del display junto con resistencias para evitar que el dispositivo sufra daños.
 
 ![Decodificador 4511](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DECODIFICADOR.PNG)
+
+**Figura 24:** Decodificador 4511
 
 * Para conectar el display se debe tomar en cuenta la estructura que posee, para este circuito se usa un display 7 segmentos cátodo común. Esto quiere decir que el pin común del display debe ir conectado a tierra:
 
 ![Display 7 seg catodo común](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DISPLAY.PNG)
 
+**Figura 24:** Display 7 seg catodo común
+
 * Hay que tomar en cuenta que para los displays de 7 segmentos el número más alto que se puede visualizar es el nueve, por lo tanto cuando el resultado de la suma implique un número mayor al indicado, no se va a encender el display:
 
 ![Display encendido](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DISPLAYENCENDIDO.png)
 
+**Figura 25:** Display encendido
+
 ![Display apagado](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DISPLAYAPAGADO.png)
+
+**Figura 26:** Display apagado
 
 * El resultado se todos estos procesos da un circuito sumador de dos números de 8 bits como se muestra a continuación en el software de simulación Proteus:
 
 ![Simulación Proteus](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SimulacionProteus.png)
 
+**Figura 27:** Simulación Proteus
+
 * La implementación del circuito en el laboratorio virtual Tinkercad se presenta de la siguiente forma:
 
 ![Simulación Tinkercad](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SimulacionTinkercad.png)
+
+**Figura 28:** Simulación Tinkercad
 
 Para ver el circuito completo ingresar en: https://www.tinkercad.com/things/cYY3aJ8o0qT-sumador-de-8-bits/editel?sharecode=WZe_mOvoBysl6DT_NBUMBbBigi_x7lmxiFtQwO06Kec
 
@@ -320,17 +345,17 @@ En el circuito para realizar la conexión entre las salidas de los circuitos y e
                                               
 ![4511.gif](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/4511.gif)
 
+**Figura 29:** Integrado 4511
+
 El circuito fue implementado en la plataforma Thinkercad como se muestra que ha acontinuación
 
 ![Thinkercad.png](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/Thinkercad.png)
 
+**Figura 30:** Circuito Implementado
 
 |                 **Herramientas de Software**       |                  **Descripción**                      |
 |----------------------------------------------------|-------------------------------------------------------|
 |              Thinkercad                            | Tinkercad es una sencilla aplicación en línea de diseño e impresión en 3D para todos, creado por la empresa Autodesk. Sus ventajas son claras: es sencillo de usar, su aspecto es atractivo y con unas pocas horas de entrenamiento podemos                                                           adquirir mucha destreza en su uso. Como desventaja podríamos señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo                                                         posee una versión online, por lo que hace falta conexión a internet.|
-
-
-
 
 ### 10. APORTACIONES
 
@@ -341,6 +366,8 @@ Sencillo, intuitivo, pero poderoso simulador de circuitos digitales, cuenta con 
 
 ![jAportaciones](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jAportaciones.jpeg)
 
+**Figura 31:** Circuito Implementado en El constructor Virtual de Circuitos
+
 Por su diseño en forma de protoboard asemeja el circuito real sirviendo ademas como guía para ensamblar el circuito de forma física.
 
 Se incluye ademas el manual TTL con los datasheet de cada compuerta y circuito integrado de la familia de los TTL, donde se puede consultar el diagrama interno de cada uno y su funcionamiento.
@@ -348,6 +375,8 @@ Se incluye ademas el manual TTL con los datasheet de cada compuerta y circuito i
 Constructor Virtual de Circuitos Electrónicos y Manual TTL, ideal para quienes inician en el mundo de la electrónica digital, practicar el uso de la Protoboard etc.
 
 ![jAporte2](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jAporte2.png)
+
+**Figura 32:** Circuito Implementado Físicamente
 
 ### 11. CONCLUSIONES
 
@@ -395,15 +424,21 @@ http://serdis.dis.ulpgc.es/~gii-fc/material_clases_teoria/Tema3/Tema3_1_Componen
 
 ![Energia](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENERGIA.PNG)
 
+**Figura 33:** Energia
+
 Para realizar la operación suma entre dos números de 8 bits se debe ingresar los números deseados por los dip switchs del circuito: 
 A7-B7: Bit más significativo
 A0-B0: Bit menos significativo
 
 ![Entradas del circuito en dip switch](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/INGRESO.PNG)
 
+**Figura 34:** Entradas del circuito en dip switch
+
 * Los números ingresados pasan a los sumadores que realizan la operación bit a bit:
 
 ![Sumadores](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SUMADORES.PNG)
+
+**Figura 35:** Sumadores
 
 * El resultado se muestra en la salida de los LEDS de forma binaria:
 Encendido: 1 
@@ -411,6 +446,11 @@ Apagado: 0
 
 ![Salida en LEDS](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SALIDABIN.PNG)
 
+**Figura 36:** Salida en LEDS
+
 * Los números resultantes en forma decimal se muestran en los display de 7 segmentos con ayuda de un decodificador:
 
 ![Display de 7SEG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DECDISPLAY.PNG)
+
+**Figura 37:** Display de 7SEG
+
