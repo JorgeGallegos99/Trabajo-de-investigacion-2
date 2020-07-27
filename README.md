@@ -21,7 +21,7 @@ En base los puntos planteados se pretende implementar un circuito sumador de dos
 * Entender el funcionamiento de los sumadores,sus caracteristicas y como se utilizan para armar el circuito Sumador.  
 * Utilizar los integrados 74283 para la suma, y el decodificador 4511 de bcd a display de 7 segmentos para mostrar el resultado.
 * Simular el circuito diseñado en el software Proteus y comprobar su funcionamiento.
-* Implementar el circuito diseñado en la plataforma virtual Thinkercad.
+* Implementar el circuito diseñado en la plataforma virtual Tinkercad.
 
 
 ### 3. ESTADO DEL ARTE
@@ -247,7 +247,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
    |     **Herramientas de Software**      |                 
    |---------------------------------------|
    |            Proteus                    | 
-   |           Thinkercad                  |
+   |           Tinkercad                  |
   
    
 **Tabla 2: Datos de los integrados usados para el diseño de Circuito Sumador de 8 bits**
@@ -398,7 +398,7 @@ El circuito fue implementado en la plataforma Thinkercad como se muestra que ha 
 
 |                 **Herramientas de Software**       |                  **Descripción**                      |
 |----------------------------------------------------|-------------------------------------------------------|
-|              Thinkercad                            | Tinkercad es una sencilla aplicación en línea de diseño e impresión en 3D para todos, creado por la empresa Autodesk. Sus ventajas son claras: es sencillo de usar, su aspecto es atractivo y con unas pocas horas de entrenamiento podemos                                                           adquirir mucha destreza en su uso. Como desventaja podríamos señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo                                                         posee una versión online, por lo que hace falta conexión a internet.|
+|              Tinkercad                            | Tinkercad es una sencilla aplicación en línea de diseño e impresión en 3D para todos, creado por la empresa Autodesk. Sus ventajas son claras: es sencillo de usar, su aspecto es atractivo y con unas pocas horas de entrenamiento podemos                                                           adquirir mucha destreza en su uso. Como desventaja podríamos señalar que es necesario tener una cuenta de correo para darse de alta como usuario y que sólo                                                         posee una versión online, por lo que hace falta conexión a internet.|
 
 ### 10. APORTACIONES
 
@@ -431,15 +431,11 @@ Constructor Virtual de Circuitos Electrónicos y Manual TTL, ideal para quienes 
 
 •	La manera idónea para conectar sumadores es atar el acarreo de salida del sumador de menor peso, con el acarreo de entrada del integrado de mayor peso, y de esta manera el residuo de la suma es transferido para tomar en cuenta cualquier valor que venga acumulado. 
 
-•	Para realizar la suma de dos números de 8 bits se debe realizar una conexión en cascada de dos sumadores para que se refleje el resultado completo.
-
-•	Para el resultado de cualquier operación suma se debe considerar cuales son los números más grandes que se pueden sumar y por lo tanto siempre aumenta un bit a la salida, por lo tanto, si se operan dos números de 8 bits cada uno, el resultado será un binario de 9 bits.
-
-•	Hay que tomar en cuenta que para los displays de 7 segmentos el número más alto que se puede visualizar es el nueve, por lo tanto, cuando el resultado de la suma implique un número mayor al indicado, no se va a encender el display.
-
-•	La manera idónea para conectar sumadores es atar el acarreo de salida del sumador de menor peso, con el acarreo de entrada del integrado de mayor peso, y de esta manera el residuo de la suma es transferido para tomar en cuenta cualquier valor que venga acumulado. 
 
 ### 12. RECOMENDACIONES
+
+* 
+
 
 ### 13. CRONOGRAMA
 
