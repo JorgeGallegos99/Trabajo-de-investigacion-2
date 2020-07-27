@@ -14,21 +14,43 @@ En base los puntos planteados se pretende implementar un circuito sumador de dos
 
 **General**
 
-* Diseñar un circuito sumador de dos números de 8 bits, utilizando el integrado 74283 y el resultado del sumador debe mostrarse en displays de 7 segmentos, para comprobar el funcionamiento del circuito se requiere la simulación en el software Proteus y la implementación en plataforma virtual THINKERCAD .
+* Diseñar un circuito sumador de dos números de 8 bits cada uno y mostrar su resultado en displays de 7 segmentos.
 
 **Específicos**
 
 * Entender el funcionamiento de los sumadores,sus caracteristicas y como se utilizan para armar el circuito Sumador.  
 * Utilizar los integrados 74283 para la suma, y el decodificador 4511 de bcd a display de 7 segmentos para mostrar el resultado.
-* Simular el circuito diseñado en el simulador Proteus y comprobar su funcionamiento.
+* Simular el circuito diseñado en el software Proteus y comprobar su funcionamiento.
 * Implementar el circuito diseñado en la plataforma virtual Thinkercad.
 
 
 ### 3. ESTADO DEL ARTE
 
-**Un enfoque novedoso para la realización reversible del circuito sumador-sustractor de 8 bits con costo cuántico optimizado**
+**Análisis de diferentes sumadores usando la lógica CMOS, CPL y DPL**
 
-Este documento se presenta dos enfoques de diseño para la realización reversible del circuito sumador-sustractor de 8 bits con costo cuántico optimizado. Estos diseños se comparan con los diseños existentes en algunos parámetros de rendimiento seleccionados, como el número total de puertas reversibles, salidas de basura y costo cuántico. 
+En este artículo se diseña y analizamos diferentes tipos de sumadores usando CMOS, lógica de transistor de paso complementario (CPL), lógica de transistor de doble paso (DPL). Ripple Carry Adder, Carry Look Ahead Adder, Carry Save Adder, Carry Increder Adder, Carry Skip Adder, Carry Select Adder, Conditional Sum Adder están diseñados con CMOS, lógica de transistor de paso complementario (CPL), lógica de transistor de doble paso (DPL) para Se comparan 16 bits, 32 bits y su velocidad, área y potencia.
+
+**Autores**
+
+S. Nagaraj
+
+Departamento de ECE, JNTUA, Anantapuramu, AP
+
+GM Sreerama Reddy
+
+Departamento de ECE, CBIT, Kolar, KA
+
+S. Aruna Mastani
+
+Departamento de ECE, JNTUA, Anantapuramu, AP
+
+**Fecha y lugar de publicación:**
+
+*Fecha:* 15-17 de diciembre de 2017  
+
+*Lugar:* Roorkee, India en 14a Conferencia Internacional del Consejo de la India IEEE 2017 (INDICON)
+
+Se relaciona con el presente trabajo ya que hace un análisis a diferentes sumadores entre ellos se analiza la tegnologia CMOS que es a la cual pertenece el sumador que se utiliza en el diseño del Circuito Sumador, por lo que permite entender de mejor manera con que se esta trabajando.
 
 
 **Un estudio comparativo sobre sumadores**
@@ -36,17 +58,27 @@ Este documento se presenta dos enfoques de diseño para la realización reversib
 En el articulo se realiza un comparación entres los sumadores, todos de 4 bits y se han sintetizado con la herramienta de síntesis Xilinx y se han simulado con la herramienta de simulación Xilinx. Los resultados de los informes de síntesis y la simulación del circuito ayudan a descubrir las diferentes propiedades de los sumadores,que son las que marcan la diferencia en la operación y el rendimiento de los mismos.
 
 **Fecha y lugar de publicación:**
+
 *Fecha:*  22-24 de marzo de 2017
+
 *lugar:*  Chennai, India en 2017 Conferencia internacional sobre comunicaciones inalámbricas, procesamiento de señales y redes (WiSPNET)
 
 **Autores**
+
 - Bhavani Koyada
+
 MGIT, JNTUH, Hyderabad
+
 - N. Meghana
+
 MGIT, JNTUH, Hyderabad
+
 - MD Omair Jaleel
+
 MGIT, JNTUH, Hyderabad
+
 - Praneet Raj Jeripotula
+
 MGIT, JNTUH, Hyderabad
 
 El Artículo de un estudio comparativo sobre sumadores, se relaciona con nuestro trabajo debido a que analiza los sumadores  de 4 bit que es la herramienta con la cual se diseña el circuito, en el artículo utilizan herramientas más avanzadas analizan las propiedades de cda sumador y hallan el mejor de acuerdo a eso, en el presente trabajo se ha utilizado directamente un tipo de sumador sin embargo al leer el articulo, se entiende que existes otros tipos de sumadores que podían utilizarse de mejor forma.
@@ -66,6 +98,7 @@ ECE Department, SRKR Engineering College, Bhimavaram, India
 ECE Department, SRKR Enigineering College, Bhimavaram, India
 
 **Fecha y lugar de publicación:**
+
 Fecha: 21-22 April 2017 en la conferencia Innovaciones 2017 en energía y tecnologías de computación avanzadas (i-PACT)
 
 Este artículo guarda relación con el trabajo de investigación, porque utiliza sumadores completos al igual que nuestro trabajo sin embargo los bits a sumarse y los tipos de sumadores cambian y para mostrar el resultado no usan displays como en el presente trabajo sino  también son mostrados de diferente forma sin embargo se semejan porque el objetivo es sumar dos números pero en el diseño se utiliza otro tipo de circuito.
