@@ -434,13 +434,13 @@ Constructor Virtual de Circuitos Electrónicos y Manual TTL, ideal para quienes 
 
 ### 12. RECOMENDACIONES
 
-* Se debe tomar en cuenta el valor del acarreo de entrada y salida para cada sumador ya que puede aleterar el resultado.
+•	Se debe tomar en cuenta el valor del acarreo de entrada y salida para cada sumador ya que puede aleterar el resultado.
 
-* Debemos establecer adecuadamente los bits mas significativos y menos significativos que van a ingresar a cada sumador. 
+•	Debemos establecer adecuadamente los bits mas significativos y menos significativos que van a ingresar a cada sumador. 
 
-* Para las conexion adecuada del display se debe conciderar si será de ánodo o cátodo común para asegurar un correcto funcionamiento del mismo en el circuito diseñado.
+•	Para las conexion adecuada del display se debe conciderar si será de ánodo o cátodo común para asegurar un correcto funcionamiento del mismo en el circuito diseñado.
 
-* Verificar que no se encuentren conectadas entradas y/o salidas en un mismo punto para que no se generen errores de operación y así evitar que nuestro integrado daños en el integrado.
+•	Verificar que no se encuentren conectadas entradas y/o salidas en un mismo punto para que no se generen errores de operación y así evitar que nuestro integrado daños en el integrado.
 
 ### 13. CRONOGRAMA
 
