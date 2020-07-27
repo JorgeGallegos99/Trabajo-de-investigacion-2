@@ -14,7 +14,7 @@ En base los puntos planteados se pretende implementar un circuito sumador de dos
 
 **General**
 
-* Diseñar un circuito sumador de dos números de 8 bits cada uno y mostrar su resultado en displays de 7 segmentos.
+* Diseñar un circuito sumador de dos números de 8 bits cada uno y mostrar su resultado en dos displays de 7 segmentos.
 
 **Específicos**
 
@@ -32,15 +32,15 @@ En este artículo se diseña y analizamos diferentes tipos de sumadores usando C
 
 **Autores**
 
-S. Nagaraj
+* S. Nagaraj
 
 Departamento de ECE, JNTUA, Anantapuramu, AP
 
-GM Sreerama Reddy
+* GM Sreerama Reddy
 
 Departamento de ECE, CBIT, Kolar, KA
 
-S. Aruna Mastani
+* S. Aruna Mastani
 
 Departamento de ECE, JNTUA, Anantapuramu, AP
 
@@ -88,18 +88,26 @@ El Artículo de un estudio comparativo sobre sumadores, se relaciona con nuestro
 En este articulo se diseñan sumadores de 32 bits, Ripple Carry Adder (RCA), Carry Increment adder (CINA) y Carry bypass adder (CBYA) para realizar un sumador completo utilizando Verilog HDL. Los resultados se obtienen ejecutando el código Verilog en Xilinx 14.5 ISE para el dispositivo de la familia Spartan 3E con velocidad de grado -5.
 
 **Autores:**
+
 •	K. Anirudh Kumar Maurya
+
 ECE Department, SRKR Enigineering College, Bhimavaram, India
+
 •	Y. Rama Lakshmanna
+
 ECE Department, SRKR Enigineering College, Bhimavaram, India
+
 •	K. Bala Sindhuri
+
 ECE Department, SRKR Engineering College, Bhimavaram, India
+
 •	N. Udaya Kumar
+
 ECE Department, SRKR Enigineering College, Bhimavaram, India
 
 **Fecha y lugar de publicación:**
 
-Fecha: 21-22 April 2017 en la conferencia Innovaciones 2017 en energía y tecnologías de computación avanzadas (i-PACT)
+*Fecha:* 21-22 April 2017 en la conferencia Innovaciones 2017 en energía y tecnologías de computación avanzadas (i-PACT)
 
 Este artículo guarda relación con el trabajo de investigación, porque utiliza sumadores completos al igual que nuestro trabajo sin embargo los bits a sumarse y los tipos de sumadores cambian y para mostrar el resultado no usan displays como en el presente trabajo sino  también son mostrados de diferente forma sin embargo se semejan porque el objetivo es sumar dos números pero en el diseño se utiliza otro tipo de circuito.
 
@@ -233,6 +241,7 @@ A continuación se muestra el diagrama Electrónico en THINKERCAD.
 ### 6. LISTA DE COMPONENTES
 
 En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion del circuito se utilizó un simulador y la plataforma para la implementación.
+
 **Tabla 1: Herramientas de Software usadas para el diseño de los 3 circuitos.**
 
    |     **Herramientas de Software**      |                 
@@ -260,7 +269,7 @@ En la Tabla 1 se muestra las herramientas  de software usadas para la simulacion
 
 ### 7. MAPA DE VARIABLES
 
- |**Variable | 	Tipo   | Descripción** |     
+ **|Variable | 	Tipo   | Descripción |**
  |-------------|----------------|-------------------|
  |A0,A1,A2,A3,A4,A5,A6,A7|  Entrada|Son los bits de Entrada del numero A donde A7 es el bit mas significativo y A0 es el bit menos significativo|
  |B0,B1,B2,B3,B4,B5,B6,B7| Entrada|	Son los bits de Entrada del numero B donde B7 es el bit mas significativo y B0 es el bit menos significativo|
