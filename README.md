@@ -421,6 +421,12 @@ Constructor Virtual de Circuitos Electrónicos y Manual TTL, ideal para quienes 
 
 **Figura 33:** Circuito Implementado Físicamente
 
+Se realizo la implementacion de un circuito con 3 Displays de 7 segmentos en el cual podemos visualizar el resultado completo de la suma binaria.
+
+![jimagen1](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/jimagen1.png)
+
+**Figura 34:** Circuito Implementado Físicamente
+
 ### 11. CONCLUSIONES
 
 •	Para realizar la suma de dos números de 8 bits se debe realizar una conexión en cascada de dos sumadores para que se refleje el resultado completo.
@@ -468,7 +474,7 @@ http://serdis.dis.ulpgc.es/~gii-fc/material_clases_teoria/Tema3/Tema3_1_Componen
 
 ![Energia](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/ENERGIA.PNG)
 
-**Figura 34:** Energia
+**Figura 35:** Energia
 
 Para realizar la operación suma entre dos números de 8 bits se debe ingresar los números deseados por los dip switchs del circuito: 
 A7-B7: Bit más significativo
@@ -476,13 +482,13 @@ A0-B0: Bit menos significativo
 
 ![Entradas del circuito en dip switch](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/INGRESO.PNG)
 
-**Figura 35:** Entradas del circuito en dip switch
+**Figura 36:** Entradas del circuito en dip switch
 
 * Los números ingresados pasan a los sumadores que realizan la operación bit a bit:
 
 ![Sumadores](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SUMADORES.PNG)
 
-**Figura 36:** Sumadores
+**Figura 37:** Sumadores
 
 * El resultado se muestra en la salida de los LEDS de forma binaria:
 Encendido: 1 
@@ -490,11 +496,11 @@ Apagado: 0
 
 ![Salida en LEDS](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SALIDABIN.PNG)
 
-**Figura 37:** Salida en LEDS
+**Figura 38:** Salida en LEDS
 
 * Los números resultantes en forma decimal se muestran en los display de 7 segmentos con ayuda de un decodificador:
 
 ![Display de 7SEG](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DECDISPLAY.PNG)
 
-**Figura 38:** Display de 7SEG
+**Figura 39:** Display de 7SEG
 
