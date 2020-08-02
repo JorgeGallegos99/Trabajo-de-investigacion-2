@@ -342,17 +342,21 @@ S8=Acarreo de salida del segundo sumador
 
 ![Decodificador 4511](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DECODIFICADOR.PNG)
 
-**Figura:** Decodificador 4511
+**Figura 23:** Decodificador 4511
 
 * Para conectar el display se debe tomar en cuenta la estructura que posee, para este circuito se usa un display 7 segmentos cátodo común. Esto quiere decir que el pin común del display debe ir conectado a tierra:
 
 ![Display 7 seg catodo común](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/DISPLAY.PNG)
 
+**Figura 24:** Display 7 seg catodo común
+
 ![Simulación Proteus](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SimulacionProteus.png)
+
+**Figura 25:** Simulación Proteus
 
 ![Simulación en Tinkercad](https://github.com/JorgeGallegos99/Trabajo-de-investigacion-2/blob/master/Img/SimulacionTinkercad.png)
 
-**Figura 28:** Simulación Proteus
+**Figura 26:** Simulación en Tinkercad
 
 ### 9. DESCRIPCIÓN DE PRERREQUISITOS Y CONFIGURACIÓN
 
